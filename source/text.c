@@ -40,31 +40,37 @@ static const char *g_strings[StrId_max][SetLanguage_Total] = {
     [StrId_limit_warn] = {
         STR_EN("Applet Mode"),
         STR_DE("Applet Modus"),
+        STR_IT("Modalità Applet"),
     },
 
     [StrId_version] = {
         STR_EN("Version: %s"),
         STR_DE("Version: %s"),
+        STR_IT("Versione: %s"),
     },
 
     [StrId_author] = {
         STR_EN("Author: "),
         STR_DE("Autor: "),
+        STR_IT("Autore: "),
     },
 
     [StrId_receiving] = {
         STR_EN("Receiving: %s"),
         STR_DE("Empfangen: %s"),
+        STR_IT("Ricevendo: %s"),
     },
 
     [StrId_error] = {
         STR_EN("An error has\noccured"),
         STR_DE("Ein Fehler ist\naufgetreten"),
+        STR_IT("Si è verificato\nun errore"),
     },
 
     [StrId_ok] = {
         STR_EN("OK"),
         STR_DE("OK"),
+        STR_IT("OK"),
     },
 
     [StrId_no_apps] = {
@@ -78,31 +84,41 @@ static const char *g_strings[StrId_max][SetLanguage_Total] = {
             "Bitte packe deine Apps in\n"
             "\"" APP_DIR "\""
         ),
+        STR_IT(
+            "Non hai nessun' app!\n"
+            "Inserisci le app all'interno di\n"
+            "\"" APP_DIR "\""
+       ),
     },
 
     [StrId_delete] = {
         STR_EN("Delete"),
         STR_DE("Löschen"),
+        STR_IT("Elimia"),
     },
 
     [StrId_load] = {
         STR_EN("Load"),
         STR_DE("Laden"),
+        STR_IT("Carica"),
     },
 
     [StrId_star] = {
         STR_EN("Star"),
         STR_DE("Favorisieren"),
+        STR_IT("Aggiungi ai preferiti"),
     },
 
     [StrId_back] = {
         STR_EN("Back"),
         STR_DE("Zurück"),
+        STR_IT("Indietro"),
     },
 
     [StrId_unstar] = {
         STR_EN("Unstar"),
         STR_DE("Unfavorisieren"),
+        STR_IT("Rimuovi dai preferiti"),
     },
 };
 
